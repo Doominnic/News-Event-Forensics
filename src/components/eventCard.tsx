@@ -1,4 +1,3 @@
-import { useState } from "react";
 import type { Event } from "../types";
 import { GoClock } from "react-icons/go";
 import { CiLocationOn, CiWarning } from "react-icons/ci";

@@ -2,7 +2,7 @@ import type { Event } from "../types";
 
 type GroupedRegion = {
   name: string;
-  events: Event[]; // <-- store events here
+  events: Event[];
   totalEvents: number;
   averageIntensity: number;
   totalCasualties: number;
@@ -17,8 +17,7 @@ type GroupedRegion = {
 export function useGroupedRegions(events: Event[]): GroupedRegion[] {
   const regionsMap: Record<string, Event[]> = {};
 
-  // Define your region groups
-  const regionGroups = {
+  const regionGroups: Record<string, string[]> = {
     "Northern Gaza": [
       "Northern Gaza (near aid distribution)",
       "Northern Gaza (aid queue site)",
@@ -53,19 +52,19 @@ export function useGroupedRegions(events: Event[]): GroupedRegion[] {
   };
 
   // Initialize empty arrays for each group
-  Object.keys(regionGroups).forEach(groupName => {
-    regionsMap[groupName] = [];
-  });
+  for (const name of Object.keys(regionGroups)) {
+    regionsMap[name] = [];
+  }
 
   // Assign events to groups
-  events.forEach(event => {
-    const region = Object.entries(regionGroups).find(([groupName, places]) =>
+  for (const event of events) {
+    const region = Object.entries(regionGroups).find(([, places]) =>
       places.includes(event.location.place)
     );
     if (region) {
       regionsMap[region[0]].push(event);
     }
-  });
+  }
 
   // Build final groupedRegions array
   return Object.entries(regionsMap).map(([name, events]) => {
@@ -74,10 +73,12 @@ export function useGroupedRegions(events: Event[]): GroupedRegion[] {
       totalEvents > 0
         ? events.reduce((sum, e) => sum + e.intensity, 0) / totalEvents
         : 0;
+
     const totalCasualties = events.reduce(
       (sum, e) => sum + e.casualties.killed + e.casualties.injured,
       0
     );
+
     const totalInfrastructureDamage = events.reduce(
       (acc, e) => {
         acc.buildings_destroyed += e.infrastructure_damage.buildings_destroyed;
@@ -98,7 +99,7 @@ export function useGroupedRegions(events: Event[]): GroupedRegion[] {
 
     return {
       name,
-      events, // <-- include the actual events here
+      events,
       totalEvents,
       averageIntensity,
       totalCasualties,

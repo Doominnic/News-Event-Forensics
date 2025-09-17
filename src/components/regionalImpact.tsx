@@ -9,10 +9,13 @@ import { useGroupedRegions } from "../hooks/useGroupedRegions"; // the hook we c
 import FilteredEventsContainer from "../components/filteredEventsContainer";
 
 // Mock: replace this with your actual events data
-import eventsData from "../data/events.json";
 
-export default function RegionalImpactMapPage() {
-  const groupedRegions = useGroupedRegions(eventsData as Event[]);
+interface RegionalImpactMapProps {
+  events: Event[];
+}
+
+export default function RegionalImpactMap({ events }: RegionalImpactMapProps) {
+  const groupedRegions = useGroupedRegions(events as Event[]);
   const [selectedGroup, setSelectedGroup] = useState<string | null>(null);
 
   // Get the events of the selected group from the hook
@@ -56,10 +59,10 @@ export default function RegionalImpactMapPage() {
                 </span>
               </p>
               <div className="grid grid-cols-2">
-                <p className="flex items-center">
+                <div className="flex items-center">
                   <h2 className="font-semibold mr-1">Total Events: </h2>{" "}
                   {group.totalEvents}
-                </p>
+                </div>
                 <p className="text-red-700 flex items-center gap-1">
                   <span className="flex items-center gap-1">
                     <CiWarning /> Casualties:

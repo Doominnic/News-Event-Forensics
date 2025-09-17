@@ -1,15 +1,16 @@
 import { motion, AnimatePresence } from "framer-motion";
 import type { Event } from "../types";
+interface FilteredEventsContainerProps {
+  events: Event[];
+  selectedRegion: string | null;
+  onClearRegion: () => void;
+}
 
 export default function FilteredEventsContainer({
   events,
   selectedRegion,
   onClearRegion,
-}: {
-  events: Event[];
-  selectedRegion: string | null;
-  onClearRegion: () => void;
-}) {
+}: FilteredEventsContainerProps) {
   return (
     <AnimatePresence>
       {selectedRegion && events.length > 0 && (

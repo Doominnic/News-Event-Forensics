@@ -27,30 +27,33 @@ export default function Heatmap() {
           icon={icon}
         >
           <Popup>
-            <h3>{e.headline}</h3>
-            <p>{e.timestamp}</p>
-            <div style={{ display: "flex", gap: "4px", overflowX: "auto" }}>
-              {e.media.slice(0, 3).map((url, i) => (
-                <img
-                  key={i}
-                  src={url}
-                  alt=""
-                  style={{ width: "60px", height: "60px", objectFit: "cover" }}
-                />
-              ))}
-            </div>
-            <div>
-              <h2 className="font-semibold">Casualties</h2>
-              <p>
-                Killed: {e.casualties.killed} — Injured: {e.casualties.injured}
+            <div className="flex flex-col gap-1">
+              <h3 className="font-semibold">{e.headline}</h3>
+              <p className="m-0">
+                {new Date(e.timestamp).toLocaleString("en-US", {
+                  month: "short",
+                  day: "2-digit",
+                  hour: "2-digit",
+                  minute: "2-digit",
+                  hour12: true,
+                  timeZone: "UTC",
+                }) + " UTC"}
               </p>
-            </div>
-            <div>
-              <h2 className="font-semibold">Infrastructure Damage</h2>
-              <p>
-                Buildings destroyed:{" "}
-                {e.infrastructure_damage.buildings_destroyed}
-              </p>
+
+              <div className="flex items-center ">
+                <h2 className="font-semibold mr-2">Casualties:</h2>
+                <p>
+                  Killed: {e.casualties.killed} — Injured:{" "}
+                  {e.casualties.injured}
+                </p>
+              </div>
+              <div>
+                <h2 className="font-semibold">Infrastructure Damage</h2>
+                <p>
+                  Buildings destroyed:{" "}
+                  {e.infrastructure_damage.buildings_destroyed}
+                </p>
+              </div>
             </div>
           </Popup>
         </Marker>

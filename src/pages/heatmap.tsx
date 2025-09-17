@@ -21,6 +21,7 @@ import { VscTarget } from "react-icons/vsc";
 import { BsBuilding } from "react-icons/bs";
 import { FaArrowTrendUp } from "react-icons/fa6";
 import Heatmap from "../components/heatmap";
+import type { Event } from "../types";
 import RegionalImpactMap from "../components/regionalImpact";
 
 const intensityColors = {
@@ -168,7 +169,7 @@ export default function HeatmapChartsPage() {
               <YAxis />
               <Tooltip
                 formatter={(value: number) => [value, "Casualties"]}
-                labelFormatter={(label: string, payload) => {
+                labelFormatter={(_, payload) => {
                   if (!payload) return "";
                   return `Event: ${payload[0].payload.headline}`; // headline of that specific event
                 }}
@@ -201,7 +202,7 @@ export default function HeatmapChartsPage() {
               />
               <Tooltip
                 formatter={(value: number) => [`${value}`, "Intensity"]}
-                labelFormatter={(label: string, payload) =>
+                labelFormatter={(_, payload) =>
                   `Event: ${payload?.[0]?.payload.headline}`
                 }
               />
@@ -255,7 +256,7 @@ export default function HeatmapChartsPage() {
         </div>
       </div>
       <div className="px-4 md:px-8 lg:px-24 mt-4">
-        <RegionalImpactMap events={eventsData} />
+        <RegionalImpactMap events={eventsData as Event[]} />
       </div>
     </div>
   );
