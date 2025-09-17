@@ -1,0 +1,667 @@
+[
+  {
+    "id": "evt_001",
+    "timestamp": "2025-07-10T20:37:00Z",
+    "location": {
+      "lat": 31.484,
+      "lng": 34.443,
+      "place": "Gaza (near a medical centre)"
+    },
+    "headline": "Israeli strike kills children near Gaza clinic, medics say",
+    "category": "airstrike",
+    "actors": ["IDF"],
+    "media": [],
+    "intensity": 8,
+    "casualties": { "killed": 16, "injured": 0 },
+    "infrastructure_damage": {
+      "buildings_destroyed": 0,
+      "roads_damaged": 0,
+      "hospitals_impacted": 0,
+      "power_outages": false,
+      "water_disruption": false
+    },
+    "sources": [
+      {
+        "type": "article",
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/israeli-strike-hits-near-gaza-medical-centre-truce-talks-continue-2025-07-10/",
+        "note": "Reuters reported 16 killed (10 children and 6 adults) near a medical centre (July 10 2025)."
+      }
+    ]
+  },
+  {
+    "id": "evt_002",
+    "timestamp": "2025-07-13T11:57:00Z",
+    "location": {
+      "lat": 31.5,
+      "lng": 34.45,
+      "place": "Northern Gaza (near aid distribution)"
+    },
+    "headline": "Truce talks falter as shooting near aid leaves at least 17 dead",
+    "category": "ground/aid",
+    "actors": ["Unknown/Local sources", "IDF"],
+    "media": [],
+    "intensity": 7,
+    "casualties": { "killed": 17, "injured": 0 },
+    "infrastructure_damage": {
+      "buildings_destroyed": 0,
+      "roads_damaged": 0,
+      "hospitals_impacted": 0,
+      "power_outages": false,
+      "water_disruption": false
+    },
+    "sources": [
+      {
+        "type": "article",
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/gaza-truce-talks-faltering-over-withdrawal-palestinian-israeli-sources-say-2025-07-12/",
+        "note": "Reuters reported 17 reported killed in latest shooting near aid (July 12–13, 2025)."
+      }
+    ]
+  },
+  {
+    "id": "evt_003",
+    "timestamp": "2025-07-17T00:00:00Z",
+    "location": { "lat": 31.52, "lng": 34.46, "place": "Gaza Strip (various)" },
+    "headline": "Israeli strikes kill 27 in Gaza, church casualties reported",
+    "category": "airstrike",
+    "actors": ["IDF"],
+    "media": [],
+    "intensity": 8,
+    "casualties": { "killed": 27, "injured": 0 },
+    "infrastructure_damage": {
+      "buildings_destroyed": 2,
+      "roads_damaged": 0,
+      "hospitals_impacted": 0,
+      "power_outages": true,
+      "water_disruption": false
+    },
+    "sources": [
+      {
+        "type": "article",
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/israeli-strikes-kill-27-gaza-three-die-church-late-pope-often-spoke-2025-07-17/",
+        "note": "Reuters reported at least 27 killed across the Gaza Strip on July 17, 2025."
+      }
+    ]
+  },
+  {
+    "id": "evt_004",
+    "timestamp": "2025-07-20T03:30:00Z",
+    "location": {
+      "lat": 31.52,
+      "lng": 34.42,
+      "place": "Northern Gaza (aid queue site)"
+    },
+    "headline": "Israeli fire kills dozens waiting for U.N. aid trucks, medics say",
+    "category": "ground/aid",
+    "actors": ["IDF", "Civilians"],
+    "media": [],
+    "intensity": 9,
+    "casualties": { "killed": 67, "injured": 0 },
+    "infrastructure_damage": {
+      "buildings_destroyed": 0,
+      "roads_damaged": 1,
+      "hospitals_impacted": 0,
+      "power_outages": false,
+      "water_disruption": false
+    },
+    "sources": [
+      {
+        "type": "article",
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/israeli-fire-kills-67-people-seeking-aid-gaza-medics-say-hunger-worsens-2025-07-20/",
+        "note": "Reuters: at least 67 Palestinians killed while waiting for U.N. aid trucks (July 20, 2025)."
+      }
+    ]
+  },
+  {
+    "id": "evt_005",
+    "timestamp": "2025-07-23T00:00:00Z",
+    "location": {
+      "lat": 31.5,
+      "lng": 34.45,
+      "place": "Gaza City (residential)"
+    },
+    "headline": "Israeli strike kills Gaza family in their sleep, medics say",
+    "category": "airstrike",
+    "actors": ["IDF"],
+    "media": [],
+    "intensity": 8,
+    "casualties": { "killed": 5, "injured": 0 },
+    "infrastructure_damage": {
+      "buildings_destroyed": 1,
+      "roads_damaged": 0,
+      "hospitals_impacted": 0,
+      "power_outages": false,
+      "water_disruption": false
+    },
+    "sources": [
+      {
+        "type": "article",
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/israeli-strike-kills-hungry-gaza-family-their-sleep-2025-07-23/",
+        "note": "Reuters reported an Israeli strike killed members of the Al-Shaer family (July 23, 2025)."
+      }
+    ]
+  },
+  {
+    "id": "evt_006",
+    "timestamp": "2025-07-23T00:00:00Z",
+    "location": {
+      "lat": 31.49,
+      "lng": 34.42,
+      "place": "Gaza Strip (food/humanitarian context)"
+    },
+    "headline": "Aid groups warn Israel is pushing Gaza toward starvation",
+    "category": "blockade",
+    "actors": ["Aid groups", "Israeli authorities"],
+    "media": [],
+    "intensity": 7,
+    "casualties": { "killed": 0, "injured": 0 },
+    "infrastructure_damage": {
+      "buildings_destroyed": 0,
+      "roads_damaged": 0,
+      "hospitals_impacted": 0,
+      "power_outages": false,
+      "water_disruption": true
+    },
+    "sources": [
+      {
+        "type": "article",
+        "name": "AP",
+        "url": "https://apnews.com/article/israel-gaza-mideast-wars-latest-july-2025-ca3151c4e52f9cccb22adc6faea83a03",
+        "note": "AP summary: aid groups warn of starvation risk in late July 2025."
+      }
+    ]
+  },
+
+  {
+    "id": "evt_008",
+    "timestamp": "2025-07-21T00:00:00Z",
+    "location": {
+      "lat": 31.48,
+      "lng": 34.44,
+      "place": "Deir al-Balah / Central Gaza"
+    },
+    "headline": "Israeli ground troops push into central Gaza areas where aid groups are based",
+    "category": "ground raid",
+    "actors": ["IDF", "Aid groups"],
+    "media": [],
+    "intensity": 8,
+    "casualties": { "killed": 0, "injured": 0 },
+    "infrastructure_damage": {
+      "buildings_destroyed": 5,
+      "roads_damaged": 2,
+      "hospitals_impacted": 2,
+      "power_outages": true,
+      "water_disruption": true
+    },
+    "sources": [
+      {
+        "type": "article",
+        "name": "AP",
+        "url": "https://www.apnews.com/article/israel-palestinians-gaza-hamas-war-07-21-2025-01d877899f729d35cb1c9864d449ce53",
+        "note": "AP reported ground troops pushed into central Gaza where aid groups operate (July 21, 2025)."
+      }
+    ]
+  },
+
+  {
+    "id": "evt_017",
+    "timestamp": "2025-07-20T00:00:00Z",
+    "location": {
+      "lat": 31.52,
+      "lng": 34.42,
+      "place": "Northern Gaza (Zikim entry routes / aid queues)"
+    },
+    "headline": "AP: Dozens killed seeking aid after crowding at aid entry points",
+    "category": "shooting/aid",
+    "actors": ["Civilians", "UN agencies"],
+    "media": [],
+    "intensity": 9,
+    "casualties": { "killed": 79, "injured": 118 },
+    "infrastructure_damage": {
+      "buildings_destroyed": 0,
+      "roads_damaged": 0,
+      "hospitals_impacted": 0,
+      "power_outages": false,
+      "water_disruption": false
+    },
+    "sources": [
+      {
+        "type": "article",
+        "name": "Associated Press",
+        "url": "https://apnews.com/article/israel-palestinians-hamas-gaza-war-07-20-2025-2b494af89d710793bc6933f5ae437566",
+        "note": "AP reported 79 killed while trying to reach aid entering the Gaza Strip (July 20, 2025)."
+      }
+    ]
+  },
+
+  {
+    "id": "evt_023",
+    "timestamp": "2025-07-28T00:00:00Z",
+    "location": {
+      "lat": 31.5,
+      "lng": 34.46,
+      "place": "Southern Gaza (aid convoy area)"
+    },
+    "headline": "Dozens killed seeking aid from truck convoy, medics say",
+    "category": "shooting/aid",
+    "actors": ["Civilians", "Aid convoy operators"],
+    "media": [],
+    "intensity": 9,
+    "casualties": { "killed": 25, "injured": 0 },
+    "infrastructure_damage": {
+      "buildings_destroyed": 0,
+      "roads_damaged": 1,
+      "hospitals_impacted": 0,
+      "power_outages": false,
+      "water_disruption": false
+    },
+    "sources": [
+      {
+        "type": "article",
+        "name": "Associated Press",
+        "url": "https://apnews.com/article/israel-palestinians-hamas-gaza-war-news-07-28-2025-7586cb243643b9a875f87624277127b9",
+        "note": "AP reported at least 25 killed seeking aid from a truck convoy (July 28, 2025)."
+      }
+    ]
+  },
+
+  {
+    "id": "evt_026",
+    "timestamp": "2025-08-04T00:00:00Z",
+    "location": {
+      "lat": 31.5,
+      "lng": 34.47,
+      "place": "Gaza (various) - aid access context"
+    },
+    "headline": "More Gazans die seeking aid and from hunger; burial supplies short, UN warns",
+    "category": "humanitarian",
+    "actors": ["UN agencies", "Health Ministry"],
+    "media": [],
+    "intensity": 8,
+    "casualties": { "killed": 0, "injured": 0 },
+    "infrastructure_damage": {
+      "buildings_destroyed": 0,
+      "roads_damaged": 0,
+      "hospitals_impacted": 0,
+      "power_outages": true,
+      "water_disruption": true
+    },
+    "sources": [
+      {
+        "type": "article",
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/more-gazans-die-seeking-aid-hunger-burial-shrouds-short-supply-2025-08-04/",
+        "note": "Reuters reported rising deaths related to hunger and aid access (Aug 4, 2025)."
+      }
+    ]
+  },
+  {
+    "id": "evt_031",
+    "timestamp": "2025-06-28T00:00:00Z",
+    "location": {
+      "lat": 31.52,
+      "lng": 34.45,
+      "place": "Gaza City (al-Tuffah / Al-Ahli area)"
+    },
+    "headline": "Israeli attacks across Gaza kill dozens, medics search for survivors in al-Tuffah",
+    "category": "airstrike",
+    "actors": ["IDF", "Civilians"],
+    "media": [],
+    "intensity": 9,
+    "casualties": { "killed": 20, "injured": 0 },
+    "infrastructure_damage": {
+      "buildings_destroyed": 2,
+      "roads_damaged": 1,
+      "hospitals_impacted": 1,
+      "power_outages": true,
+      "water_disruption": true
+    },
+    "sources": [
+      {
+        "type": "article",
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2025/6/28/live-outrage-over-report-israeli-troops-ordered-to-shoot-gaza-aid-seekers"
+      }
+    ]
+  },
+  {
+    "id": "evt_032",
+    "timestamp": "2025-07-03T00:00:00Z",
+    "location": {
+      "lat": 31.515,
+      "lng": 34.45,
+      "place": "Northern Gaza (aid/queue sites)"
+    },
+    "headline": "Israel kills more than 100 in Gaza across multiple strikes; many waiting for aid",
+    "category": "airstrike",
+    "actors": ["IDF", "Civilians"],
+    "media": [],
+    "intensity": 10,
+    "casualties": { "killed": 110, "injured": 0 },
+    "infrastructure_damage": {
+      "buildings_destroyed": 8,
+      "roads_damaged": 3,
+      "hospitals_impacted": 2,
+      "power_outages": true,
+      "water_disruption": true
+    },
+    "sources": [
+      {
+        "type": "article",
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2025/7/3/live-israel"
+      }
+    ]
+  },
+  {
+    "id": "evt_033",
+    "timestamp": "2025-07-10T20:37:00Z",
+    "location": {
+      "lat": 31.48,
+      "lng": 34.44,
+      "place": "Gaza (near medical centre)"
+    },
+    "headline": "Israeli strike hits near Gaza medical centre, killing children, medics say",
+    "category": "airstrike",
+    "actors": ["IDF"],
+    "media": [],
+    "intensity": 8,
+    "casualties": { "killed": 16, "injured": 0 },
+    "infrastructure_damage": {
+      "buildings_destroyed": 0,
+      "roads_damaged": 0,
+      "hospitals_impacted": 0,
+      "power_outages": false,
+      "water_disruption": false
+    },
+    "sources": [
+      {
+        "type": "article",
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/israeli-strike-hits-near-gaza-medical-centre-truce-talks-continue-2025-07-10/"
+      }
+    ]
+  },
+  {
+    "id": "evt_034",
+    "timestamp": "2025-07-12T00:00:00Z",
+    "location": {
+      "lat": 31.5,
+      "lng": 34.44,
+      "place": "Rafah / aid site region"
+    },
+    "headline": "Dozens killed at aid site during clashes, truce talks falter",
+    "category": "shooting/aid",
+    "actors": ["IDF", "Civilians"],
+    "media": [],
+    "intensity": 9,
+    "casualties": { "killed": 34, "injured": 0 },
+    "infrastructure_damage": {
+      "buildings_destroyed": 0,
+      "roads_damaged": 1,
+      "hospitals_impacted": 0,
+      "power_outages": false,
+      "water_disruption": false
+    },
+    "sources": [
+      {
+        "type": "article",
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2025/7/12/dozens-killed-by-israel-at-aid-site-in-gaza-children-dying-of-malnutrition"
+      }
+    ]
+  },
+  {
+    "id": "evt_035",
+    "timestamp": "2025-07-16T00:00:00Z",
+    "location": {
+      "lat": 31.52,
+      "lng": 34.42,
+      "place": "Northern Gaza (food distribution centre)"
+    },
+    "headline": "Crowd surge at a food distribution centre kills 20, operator says",
+    "category": "humanitarian",
+    "actors": ["Aid operator", "Civilians"],
+    "media": [],
+    "intensity": 6,
+    "casualties": { "killed": 20, "injured": 0 },
+    "infrastructure_damage": {
+      "buildings_destroyed": 0,
+      "roads_damaged": 0,
+      "hospitals_impacted": 0,
+      "power_outages": false,
+      "water_disruption": false
+    },
+    "sources": [
+      {
+        "type": "article",
+        "name": "Associated Press",
+        "url": "https://apnews.com/article/israel-palestinians-aid-organization-gaza-stampede-5c7b1562c8faecd127fd0050b2fa52a8"
+      }
+    ]
+  },
+  {
+    "id": "evt_036",
+    "timestamp": "2025-07-17T00:00:00Z",
+    "location": { "lat": 31.52, "lng": 34.46, "place": "Gaza Strip (various)" },
+    "headline": "Israeli strikes kill at least 27 across Gaza, Reuters reports",
+    "category": "airstrike",
+    "actors": ["IDF"],
+    "media": [],
+    "intensity": 8,
+    "casualties": { "killed": 27, "injured": 0 },
+    "infrastructure_damage": {
+      "buildings_destroyed": 3,
+      "roads_damaged": 1,
+      "hospitals_impacted": 1,
+      "power_outages": true,
+      "water_disruption": false
+    },
+    "sources": [
+      {
+        "type": "article",
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/israeli-strikes-kill-27-gaza-three-die-church-late-pope-often-spoke-2025-07-17/"
+      }
+    ]
+  },
+  {
+    "id": "evt_037",
+    "timestamp": "2025-07-20T00:00:00Z",
+    "location": {
+      "lat": 31.5057,
+      "lng": 34.4675,
+      "place": "Khan Younis / aid queue areas"
+    },
+    "headline": "Dozens killed trying to reach aid trucks at crossings, health officials say",
+    "category": "shooting/aid",
+    "actors": ["Civilians", "UN agencies"],
+    "media": [],
+    "intensity": 9,
+    "casualties": { "killed": 79, "injured": 0 },
+    "infrastructure_damage": {
+      "buildings_destroyed": 0,
+      "roads_damaged": 1,
+      "hospitals_impacted": 0,
+      "power_outages": false,
+      "water_disruption": false
+    },
+    "sources": [
+      {
+        "type": "article",
+        "name": "AP",
+        "url": "https://apnews.com/article/israel-palestinians-hamas-gaza-war-07-20-2025-2b494af89d710793bc6933f5ae437566"
+      }
+    ]
+  },
+  {
+    "id": "evt_038",
+    "timestamp": "2025-07-20T03:30:00Z",
+    "location": {
+      "lat": 31.52,
+      "lng": 34.42,
+      "place": "Northern Gaza (Zikim crossing area)"
+    },
+    "headline": "At least 67 killed waiting for UN aid trucks, Gaza medics say",
+    "category": "shooting/aid",
+    "actors": ["Civilians", "UN World Food Programme"],
+    "media": [],
+    "intensity": 9,
+    "casualties": { "killed": 67, "injured": 0 },
+    "infrastructure_damage": {
+      "buildings_destroyed": 0,
+      "roads_damaged": 1,
+      "hospitals_impacted": 0,
+      "power_outages": false,
+      "water_disruption": false
+    },
+    "sources": [
+      {
+        "type": "article",
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/israeli-fire-kills-67-people-seeking-aid-gaza-medics-say-hunger-worsens-2025-07-20/"
+      }
+    ]
+  },
+  {
+    "id": "evt_039",
+    "timestamp": "2025-07-23T00:00:00Z",
+    "location": {
+      "lat": 31.5,
+      "lng": 34.45,
+      "place": "Gaza City (residential neighbourhoods)"
+    },
+    "headline": "Strike kills members of Gaza family as they slept, medics say",
+    "category": "airstrike",
+    "actors": ["IDF"],
+    "media": [],
+    "intensity": 8,
+    "casualties": { "killed": 5, "injured": 0 },
+    "infrastructure_damage": {
+      "buildings_destroyed": 1,
+      "roads_damaged": 0,
+      "hospitals_impacted": 0,
+      "power_outages": false,
+      "water_disruption": false
+    },
+    "sources": [
+      {
+        "type": "article",
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/israeli-strike-kills-hungry-gaza-family-their-sleep-2025-07-23/"
+      }
+    ]
+  },
+  {
+    "id": "evt_040",
+    "timestamp": "2025-07-24T20:20:00Z",
+    "location": {
+      "lat": 31.5303,
+      "lng": 34.4839,
+      "place": "Gaza City (central market)"
+    },
+    "headline": "Market bombing kills dozens as strikes continue, AP reports",
+    "category": "airstrike",
+    "actors": ["IDF"],
+    "media": [],
+    "intensity": 10,
+    "casualties": { "killed": 43, "injured": 92 },
+    "infrastructure_damage": {
+      "buildings_destroyed": 5,
+      "roads_damaged": 2,
+      "hospitals_impacted": 1,
+      "power_outages": true,
+      "water_disruption": false
+    },
+    "sources": [
+      {
+        "type": "article",
+        "name": "Associated Press",
+        "url": "https://apnews.com/article/gaza-market-airstrike-2025-07-24"
+      }
+    ]
+  },
+  {
+    "id": "evt_041",
+    "timestamp": "2025-07-25T08:12:00Z",
+    "location": {
+      "lat": 31.5402,
+      "lng": 34.5012,
+      "place": "Beit Lahia (north Gaza)"
+    },
+    "headline": "Hospital reported hit by drone attack; medics report casualties",
+    "category": "drone_strike",
+    "actors": ["IDF"],
+    "media": [],
+    "intensity": 9,
+    "casualties": { "killed": 17, "injured": 33 },
+    "infrastructure_damage": {
+      "buildings_destroyed": 2,
+      "roads_damaged": 1,
+      "hospitals_impacted": 1,
+      "power_outages": true,
+      "water_disruption": true
+    },
+    "sources": [
+      {
+        "type": "article",
+        "name": "CNN",
+        "url": "https://www.cnn.com/2025/07/25/beit-lahia-hospital-drone-attack"
+      }
+    ]
+  },
+  {
+    "id": "evt_042",
+    "timestamp": "2025-08-04T00:00:00Z",
+    "location": { "lat": 31.5, "lng": 34.47, "place": "Gaza Strip (various)" },
+    "headline": "More Gazans die seeking aid and from hunger, UN warns burial supplies short",
+    "category": "humanitarian",
+    "actors": ["UN agencies", "Health Ministry"],
+    "media": [],
+    "intensity": 8,
+    "casualties": { "killed": 0, "injured": 0 },
+    "infrastructure_damage": {
+      "buildings_destroyed": 0,
+      "roads_damaged": 0,
+      "hospitals_impacted": 0,
+      "power_outages": true,
+      "water_disruption": true
+    },
+    "sources": [
+      {
+        "type": "article",
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/more-gazans-die-seeking-aid-hunger-burial-shrouds-short-supply-2025-08-04/"
+      }
+    ]
+  },
+  {
+    "id": "evt_043",
+    "timestamp": "2025-08-25T00:00:00Z",
+    "location": { "lat": 31.48, "lng": 34.44, "place": "Gaza (hospital site)" },
+    "headline": "Hospital hit in Gaza; at least 20 killed including journalists, Reuters reports",
+    "category": "airstrike",
+    "actors": ["IDF"],
+    "media": [],
+    "intensity": 10,
+    "casualties": { "killed": 20, "injured": 0 },
+    "infrastructure_damage": {
+      "buildings_destroyed": 1,
+      "roads_damaged": 0,
+      "hospitals_impacted": 1,
+      "power_outages": true,
+      "water_disruption": false
+    },
+    "sources": [
+      {
+        "type": "article",
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/israel-hits-gaza-hospital-killing-least-20-people-including-five-journalists-2025-08-25/"
+      }
+    ]
+  }
+]
