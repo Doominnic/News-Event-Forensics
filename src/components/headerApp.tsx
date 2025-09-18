@@ -17,7 +17,7 @@ export default function Header() {
           Gaza Crisis Investigation
         </h1>
         <p className="text-sm mb-4 md:text-base text-gray-700">
-          July 2025 • Interactive Timeline & Geographic Analysis
+          Interactive Timeline & Geographic Analysis
         </p>
       </div>
 
