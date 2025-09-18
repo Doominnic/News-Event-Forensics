@@ -88,6 +88,10 @@ export default function HeatmapChartsPage() {
     (sum, event) => sum + event.casualties.killed,
     0
   );
+  const buildingsDestroyed = eventsData.reduce(
+    (sum, e) => sum + e.infrastructure_damage.buildings_destroyed,
+    0
+  );
   const totalEvents = eventsData.length;
   const avgIntensity =
     eventsData.reduce((sum, event) => sum + event.intensity, 0) / totalEvents;
@@ -150,7 +154,9 @@ export default function HeatmapChartsPage() {
                 <BsBuilding />
               </div>
               <div>
-                <div className="text-2xl text-red-700">{totalKilled}</div>
+                <div className="text-2xl text-red-700">
+                  {buildingsDestroyed}
+                </div>
                 <div className="text-sm text-gray-500">Buildings Destroyed</div>
               </div>
             </div>

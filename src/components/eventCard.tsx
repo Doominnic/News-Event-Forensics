@@ -82,7 +82,7 @@ export default function EventCard({
         </div>
 
         <div className="flex flex-col gap-2 items-end">
-          <div className="tags flex gap-2">
+          <div className="tags flex flex-col md:flex-row gap-2">
             <span
               className={`rounded-lg h-[25px] flex items-center justify-center px-2 text-xs whitespace-nowrap text-white ${colors.bgTag}`}
             >
